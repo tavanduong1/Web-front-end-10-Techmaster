@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #34465c;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
+}
+
+.navbar-brand{
+    display: block;
+     
+}
+.navbar-brand img {
+    width: 120px;  
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+.sangphai{
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.nav-link{
+    color: wheat!important;
+}
+.content{
+    margin-top: 50px;
+}
