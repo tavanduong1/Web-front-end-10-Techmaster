@@ -1,0 +1,341 @@
+*{ margin:0px;
+    box-sizing: border-box;
+ }
+ 
+ html{
+     font-size: 14px;
+ }
+ @font-face {
+     src:url(../fonts/Inconsolata-Regular.ttf);
+     font-family: Inconsolata-Regular;
+ }
+ 
+ @font-face {
+     src:url(../fonts/PlayfairDisplay-Regular.ttf);
+     font-family: PlayfairDisplay;
+ }
+ @font-face {
+     src:url(../fonts/PlayfairDisplay-Black.ttf);
+     font-family: PlayfairDisplay-Black;
+ }
+ @font-face {
+     src:url(../fonts/PlayfairDisplay-Bold.ttf);
+     font-family: PlayfairDisplay-Bold;
+ }
+ @font-face {
+     src:url(../fonts/PlayfairDisplay-Italic.ttf);
+     font-family: PlayfairDisplay-Italic;
+ }
+ @font-face {
+     src:url(../fonts/Myriad-Pro-Regular.ttf);
+     font-family: Myriad-Pro;
+ }
+ @font-face {
+     src:url(../fonts/Ubuntu-Light.tff);
+     font-family: Ubuntu-Light;
+ }
+ 
+ body {
+     background-color: #bfbfbf!important;
+ }
+ .wrap{
+    background-color: #fff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header{
+    max-width: 1200px;
+    margin: auto;
+    background-color:#fff;
+}
+
+
+.navbar-brand{
+    font-family: Inconsolata-Regular;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+    margin-right: 296px!important;
+}
+
+.menu-bar{ padding-left: 6px;}
+
+.navbar-nav{
+    margin-left: auto!important;
+}
+.nav-item{
+    padding: 0 44px!important;
+}
+.nav-item:nth-child(4){
+    padding-right: 5px!important;
+}
+
+.nav-link {
+    display: inline-block;
+    font-family: Myriad-Pro!important;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #626262!important;
+}
+.nav-link:hover {
+    border-bottom: #626262 1px solid;
+    font-weight: 600;
+}
+/* Het css cho header */
+
+/* Bat dau css cho banner */
+.banner{
+    padding:28px 37px!important ;
+}
+/* Bat dau css cho banner */
+.banner{
+    padding:28px 37px!important ;
+}
+/* Ket thuccss cho banner */
+
+/* Bat dau CSS cho doan Van 1 */
+.doan1{
+    margin-top: 64px;
+    padding: 0px 120px!important;
+}
+
+.doan1 .tieude{
+    font-family: Ubuntu-Light!important ;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e!important;
+    margin-bottom: 25px;
+}
+
+.doan1 h2 {
+    font-family: PlayfairDisplay!important;
+    font-size: 30px;
+    color: #626262!important;
+    margin-bottom: 30px;
+}
+
+.doan1 .text-1, .doan1 .text-2{
+    font-family: PlayfairDisplay!important;
+    font-size: 14px;
+    color: #626262!important;
+    margin-bottom: 28px;
+}
+/* Ket thuc CSS cho doan Van 1 */
+ /* bat dau css cho cac anh  */
+
+ .anh2{
+    margin-top: 37px;
+}
+.anh2 img {
+    display: block;
+    margin-bottom:60px ;
+    max-height: 675px;
+}
+ /* Ket thuc css cho cac anh */
+
+ /* bat dau css cho doan van thu 3 */
+ .doan1 .text-3 {
+    padding: 0 18px!important;
+    margin-top: -15px;
+    font-family: PlayfairDisplay-Italic!important;
+    font-size: 12px;
+    color: #626262!important;
+
+ }
+ /* Ket thuc css cho doan van thu 3 */
+
+ /* Bat dau css cho icon */
+ .iconsocial{
+    margin-top: 37px;
+   display: flex;
+   justify-content: flex-end; 
+}
+.iconsocial a{
+   color:#b4ad9e!important;
+   padding: 0 10px;
+}
+.iconsocial .share{
+   font-family: Ubuntu-Light!important ;
+   font-size: 14px;
+}
+ /* Ket thuc css cho icon */
+
+ /* Bat dau css cho phan ben phai  */
+.col-4-text-1 {
+    color: #626262;
+    font-family: PlayfairDisplay!important;
+    font-size: 24px;
+    margin-top:29px;
+    margin-bottom: 22px;
+}
+.col-4-text-2 {
+    color: #626262;
+    font-family: PlayfairDisplay!important;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+
+.col-4-icon {  
+    display: flex;
+}
+
+.col-4-icon a {
+    color: #626262;
+    margin: 0 6.5px;
+}
+.col-4-icon .fa-facebook{
+    margin-left: -6.5px;
+}
+.col-4-top-post p {
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: Ubuntu-Light!important ;
+    margin-top: 70px;
+}
+
+.col-4-top-post li {
+    margin-bottom: 40px;
+}
+
+.col-4-top-post li a {
+    color: #626262;
+    font-family: PlayfairDisplay!important;
+    font-size: 16px;
+    font-weight:600 ;
+}
+.col-4-top-post li span {
+    color: #b4ad9e;
+    font-size: 12px;
+    font-family: Ubuntu-Light!important ;
+}
+
+ /*Ket thuc css cho phan ben phai  */
+
+ /* Bat dau css cho phan You may also like */
+ .fluid {
+    height: auto;
+    background-color: #f5f5f5;
+    margin-top: 75px;
+    padding-top: 2px!important;
+    padding-bottom: 73px!important;
+}
+
+.like {
+  font-family: Ubuntu-Light!important ;
+  font-size: 14px;
+  color: #b4ad9e!important;
+  margin-bottom: 38px;
+}
+
+.cot1{
+    padding: 0px 20px!important;
+}
+.cot1 a:hover {
+    text-decoration: none;
+    border-bottom: 1px #626262 solid ;
+    font-weight: 600;
+}
+.cot1 p {
+  margin-top: 18px;
+  font-family: PlayfairDisplay!important;
+  font-size: 20px;
+  color: #626262!important;
+}
+/* Ket thuc css cho phan You may also like */
+/* Bat dau css cho comment */
+.comment1 {
+    display: flex;
+    padding-top:25px ;
+    padding-bottom: 30px;
+}
+.thongtincomment{
+  margin-left: 30px;
+  width: calc((100% -85px));
+}
+.thongtincomment span:first-child{
+font-family:PlayfairDisplay-Bold;
+font-size: 14px;
+color: #626262!important;
+}
+.thongtincomment a{
+ font-family: Ubuntu-Light!important ;
+ font-size: 14px;
+ color: #b4ad9e!important;
+}
+.thongtincomment p {
+ font-family: PlayfairDisplay!important;
+ font-size: 14px;
+ color: #626262!important;
+ margin-top: 18px;
+ padding-bottom: 10px;
+}
+
+.comment-input{
+   padding: 30px 0px 30px 35px!important;  
+   width:100% ;
+   font-family: Ubuntu-Light!important ;
+   color: #c8c8c8;
+}
+
+.comment1-icon{
+   display: flex;
+   justify-content: flex-end;
+}
+.comment1-icon a:nth-child(1) {
+   color: #b4ad9e;
+   font-family: Ubuntu-Light;
+   font-size: 14px;
+   margin-right: 25px;
+}
+
+.comment1-icon a:nth-child(2) {
+   color: #c8c8c8;
+   margin-right: 25px;
+}
+
+.comment1-icon a:nth-child(3){
+   color: #626262;
+}
+
+
+/*Ket thuc css cho comment */
+
+/* Bat dau CSS phan Footer */
+.container_footer{
+ background-color: #f0f0f0;
+ padding:37px 0px 42px 0px ;
+ margin-top: 95px;
+ 
+}
+
+
+.col-sm-8 span {
+ font-family: Playfair Display Regular;
+ font-size: 14px;
+ color: black; 
+}
+.col-sm-8 .one  {
+ display: inline-block;
+ margin-left: 115px;
+ margin-right: 18px;
+}
+.col-sm-4 span {
+ display: inline-block;
+ margin-right: 10px;
+ 
+}
+.col-sm-4 a .one-follow  {
+ font-family: Playfair Display Regular;
+ font-size: 14px;
+ color: black; 
+ margin-left: 120px;
+ margin-right: 20px;
+}
+.col-sm-4 a:nth-child(n+2) {
+color: #626262;
+}
+
+/* Ket thuc phan CSS Footer */
+
