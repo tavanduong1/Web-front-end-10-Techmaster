@@ -30,3 +30,26 @@
 .content{
     margin-top: 50px;
 }
+
+.footer{
+    padding-top: 50px;
+    background-color: #464646;
+    margin-top: 300px; 
+    
+}
+.footer h3 {
+    color: white;
+    margin-bottom: 12px;
+}
+.footer a{
+    font-size: 14px;
+    color:  #919294;;
+}
+.footer ul {
+    list-style: none;
+}
+.footer li {
+    font-size: 14px;
+    color:  #919294;
+    line-height: 35px;
+}
