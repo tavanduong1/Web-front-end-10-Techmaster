@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src:url(../fonts/Lato-Regular.lnk);
+    font-family: Lato-r;
+}
+@font-face{
+    src:url(../fonts/Lato-Medium.lnk);
+    font-family: Lato-m;
+}
+@font-face{
+    src:url(../fonts/PlayfairDisplay-Regular.ttf);
+    font-family: Playfair-r;
+}
+
+/* Bat dau CSS cho phan navbar */
+.header {
+   padding: 0 6.25rem;
+   background-image: url(images/banner.png);
+   background-size: 100% 100%;
+   min-height: 951px;
+   background-repeat: no-repeat;
+   max-width: 1440px;
+}
+.navbar{
+ padding-top: 57px!important;
+}
+.navbar-brand{
+    color: white!important;
+    margin-right: 31.43rem!important;
+    margin-left: 9.25rem;
+}
+
+.nav-link{
+    color: white!important;
+    font-family: Lato-r;
+    font-size: 18px; 
+    margin-right: 4.9rem;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+}
+
+.navbar-toggler-icon{
+    color: white!important;
+}
+/*Ket thuc CSS cho phan navbar */
+
+/* Bat dau css cho phan Header - content */
+.header-content{
+    margin-left: 10.25rem;
+    margin-top: 171px;
+}
+
+.header-content h2 {
+    color: white!important;
+    font-size: 50px;
+    font-family:  Lato-m;
+    padding-right: 40.31rem;
+    margin-bottom: 1.75rem;
+}
+ 
+.header-content p {
+    color: white!important; 
+    font-family:Lato-r;
+    font-size: 16px;
+    padding-right: 42.69rem;
+    margin-bottom: 3.18rem;
+}
+
+.header-input {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 21.06rem;
+} 
+
+.header-input  #input-what {
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+    color: #ffff;
+    font-family: Lato-r;
+    font-size: 18px;
+}
+
+.header-input  #input-where {
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+    color: #ffff;
+    font-family: Lato-r;
+    font-size: 18px;
+}
+
+.header-input button {
+    background-color: #1B7DFF;
+    padding:22px 37px;
+    font-family:  Lato-m;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+/* Bat dau css cho phan Header - content */
+
+/* Bat dau css cho phan Benefits */
+
+.Benefits {
+    background-color:#ffff;
+    margin-top: -227px;
+    padding-left: 5.93rem!important;
+    padding-top: 6.375rem;
+}
+.Benefits h2{
+color: #102746;
+font-family: Lato-m;
+font-size: 35px;
+margin-bottom: 118px;
+}
+
+.col-md-4 h3{
+    font-family: Lato-m;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 34px;
+}
+
+.col-md-4 p {
+    font-family: Lato-r;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.col-md-4 a {
+   display: inline-block;
+   color: #006DFE;
+   font-size: 16px;
+   font-family: Lato-r;
+   margin-right: 26px;
+} 
+/* Ket thuc css cho phan Benefits */
+
+/* Bat dau CSS cho phan Next-trip */
+
+.next-trip{
+    margin-top: 250px;  
+}
+.col-md-8 h2 {
+    font-family: Lato-m;
+    font-size: 35px;
+    color: #102746;
+}
+
+.viewall{
+    display: flex!important;
+   justify-content: flex-end!important;
+}
+
+.hr {
+    margin-left: 15px;
+    width: 200px;
+    height: 2px;
+    background-color: #006DFE;
+}
+
+.image1{
+    margin-top: 32px;
+    margin-bottom:20px;
+}
+
+
+
+.fuji p {
+    font-family: Lato-r;
+    font-size: 50px;
+    font-weight: 600;
+   color: #ffff;
+   margin-top: -100px;
+   margin-left: 25px;
+}
+.kyoto{
+    padding-left: 0px!important;
+}
+.kyoto p{
+    font-family: Lato-r;
+    font-size: 50px;
+    font-weight: 600;
+   color: #ffff;
+   margin-top: -100px;
+   margin-left: 25px;
+}
+
+.image2{
+    margin-bottom: 200px;
+}
+.tokyo p{  font-family: Lato-r;
+    font-size: 50px;
+    font-weight: 600;
+   color: #ffff;
+   margin-top: -100px;
+   margin-left: 25px;}
+
+   .niigata p{  font-family: Lato-r;
+    font-size: 50px;
+    font-weight: 600;
+   color: #ffff;
+   margin-top: -100px;
+   margin-left: 25px;}
+   
+   
+.sapporo p{  font-family: Lato-r;
+    font-size: 50px;
+    font-weight: 600;
+   color: #ffff;
+   margin-top: -100px;
+   margin-left: 25px;}
+/* Ket thuc CSS cho phan Next-trip */
+
+/* Bat dau css cho tottori */
+
+.img-col-6{padding-left: 100px!important;
+    padding-top: 40px!important;}
+.col-7-tottori {
+padding-left: 100px!important;
+padding-top: 40px!important;
+}
+
+.col-7-tottori h2 a{
+    font-size: 30px;
+    font-family: Lato-m;
+    color: #102746;
+    margin-bottom: 50px;
+}
+
+.col-7-tottori p{
+    font-size: 16px;
+    font-family: Lato-m;
+    color: #102746;
+    margin-bottom: 40px;
+}
+
+.col-7-tottori a {
+    display: inline-block;
+   color: #006DFE;
+   font-size: 16px;
+   font-family: Lato-r;
+   margin-right: 26px;
+}
+.col-5-tottori {
+padding-left: 100px!important;
+padding-top: 40px!important;
+}
+.col-5-tottori h2 a{ font-size: 30px;
+    font-family: Lato-m;
+    color: #102746;
+    margin-bottom: 50px;}
+
+.col-5-tottori p {
+    font-size: 16px;
+    font-family: Lato-m;
+    color: #102746;
+    margin-bottom: 40px;
+}     
+.col-5-tottori a {
+    display: inline-block;
+    color: #006DFE;
+    font-size: 16px;
+    font-family: Lato-r;
+    margin-right: 26px;
+}
+/* Ket thuc css cho tottori */
+
+/* bat dau css cho top-places */
+.top-places {
+    margin-top: 100px;
+}
+.top-places h2 {
+    color: #102746;
+    font-family: Lato-m;
+    font-size: 35px;
+}
+.hr1 {
+
+    width: 200px;
+    height: 2px;
+    background-color: #26313f;
+    margin-bottom: 50px;
+}
+
+.text-nagoya {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 15px;
+}
+
+.text-nagoya span a {
+    color: #FFFFFF;
+    font-family: Lato-m;
+    font-size: 18px;
+}
+
+.favorite-comment{
+    display: flex;
+    margin-left: 90px;
+}
+
+.favorite-comment a {
+    color: #FFFFFF;
+}
+
+.content-top-places p {
+    margin-top: 70px;
+    margin-bottom: 35px;
+    font-family: Lato-m;
+    font-size: 16px;
+    color: #102746;
+}
+
+.content-top-places button {
+    background-color: #006DFE;
+    color: #FFFFFF;
+    font-family: Lato-r;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+.hang-thu-nhat{
+    margin-bottom: 30px;
+}
+/* Ket thuc css cho top-places */
+
+/* Bat dau css cho video */
+.video {
+    margin-top: 50px;
+    padding: 0!important;
+
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+/* Ket thuc  css cho video */
+
+/* Bat dau css cho footer  */
+.footer{
+    background-color: #0E1D28;
+    padding-top: 50px;
+}
+
+.logo-col-6{
+    background-image: url(images/logof.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-md-2 h4 a{
+    color: white;
+    font-family: Lato-r;
+    font-size: 18px;
+}
+
+.col-md-2 ul {
+    list-style: none;
+    padding: 0px;
+}
+.col-md-2 ul li a{color: white;
+    font-family: Lato-r;
+    font-size: 14px;
+}
+/* Ket thuc css cho footer  */
